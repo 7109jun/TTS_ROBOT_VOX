@@ -1,0 +1,10 @@
+/robotvox
+/robotvox.exe
+/build/
+/out/
+/dist/
+tests/dsp_test
+tests/dump_ph
+tests/synth_test
+*.pdb
+*.wav
