@@ -2,6 +2,11 @@
 
 C17로 처음부터 구현한 포먼트 음성 합성(TTS) + 로봇 보컬 변환기입니다. 외부 TTS, 사전학습 모델, 녹음된 음소 데이터, 외부 API를 쓰지 않으며 libc/libm만 사용합니다. 영어와 한국어를 지원합니다.
 
+## 실행 파일
+`bin/` 폴더에 빌드된 실행 파일이 있습니다. 설치 없이 바로 실행할 수 있습니다.
+- Windows x64: `bin/robotvox.exe`
+- Linux x64: `bin/robotvox-linux-x64` (`chmod +x` 후 실행)
+
 ## 빌드
 ```
 make                              # Linux / MinGW
